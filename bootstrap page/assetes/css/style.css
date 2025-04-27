@@ -1,0 +1,72 @@
+
+.f48{
+  font-size: 68px;
+}
+.bg8{background: linear-gradient(to top, #f309ad, #0733f5);
+
+  /* background-color: #015b7e; */
+}
+
+.hr{
+  color: #A435F0;
+}
+.perpal{
+  background-color: #A435F0;
+}
+.san{
+  
+  color: #A435F0;
+
+}
+.foot{
+  position: relative;
+}
+.pos{
+  background: linear-gradient(to left, #da2aa5, #550575);
+  position: absolute;
+  top: -80px;
+  right: 240px;
+}
+
+
+
+.gradient-text {
+  background: linear-gradient(18deg, #0ef806, #f30505, #d4f711, #f305ac);
+  background-size: 200% 200%;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.maroon {
+  color: #800000;
+}
+
+.form-control {
+  background-color: #fdf6ec;
+  border-radius: 0.75rem;
+  font-family: 'Georgia', serif;
+}
+
+label {
+  letter-spacing: 0.5px;
+}
+@media (max-width:768px) {
+  .pos{
+    position: relative;
+    top: 0px;
+    right: 100px;
+  }
+}

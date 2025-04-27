@@ -1,0 +1,1604 @@
+/* comman css  */
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
+box-sizing: border-box;
+}
+
+
+
+/* comman class of css */
+.werp{
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.js {
+    justify-content: space-between;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.ali-item {
+    align-items: center;
+}
+
+.text-ali {
+    text-align: center;
+}
+
+.img100 {
+    width: 100%;
+}
+
+.p50 {
+    padding: 50px 0px;
+}
+
+/* home page css */
+
+.contanier {
+    margin: auto;
+    width: 1140px;
+    padding: 30PX 0PX;
+
+
+}
+
+/*  nav bar css */
+
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav ul li a {
+    text-transform: uppercase;
+    transition: 1s;
+    font-size: 16px;
+    padding: 0px 15px;
+    color: #01427A;
+}
+
+.nav ul li a:hover {
+    transition: 1s;
+    border-bottom: 1px solid;
+    border-width: 80%;
+}
+
+.bag i {
+    padding: 0px 10px;
+    font-size: 24px;
+    color: #01427A;
+}
+
+.menu {
+    display: none;
+}
+
+/* lets us learn slider css */
+
+.learn {
+    color: white;
+    padding: 90px 100px;
+    margin: 0px 0px 0px -100px;
+    background-color: #01427A;
+    width: 70%;
+}
+
+.learn h1 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.learn p {
+    width: 90%;
+    line-height: 40px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.learn a {
+    display: inline-block;
+    font-weight: solid;
+    text-transform: uppercase;
+    border: 3px solid white;
+    color: white;
+    padding: 10px 30px;
+    transition: 1s;
+}
+
+.learn a:hover {
+    transform: scale(1.3);
+    color: #01427A;
+    background-color: #E14177;
+
+}
+
+.learn-img {
+    margin-top: -25px;
+    width: 30%;
+    border: 5px solid red;
+    position: relative;
+}
+
+.pos:hover {
+    transform: scale(1.1);
+    transition: 1S;
+}
+
+.pos {
+    width: 100%;
+    border: #01427A 5px solid;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.pos img {
+    width: 100%;
+}
+
+.edu i {
+    padding: 10px;
+    color: #E14177;
+    font-size: 60px;
+}
+
+.edu span {
+    font-weight: bold;
+
+    font-size: 28px;
+}
+
+.edu p {
+    padding: 2px;
+    font-size: 24px;
+}
+
+/* bageground image container css */
+
+.img {
+
+    padding: 100px;
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/baground.png);
+}
+
+.img h2 {
+    text-align: center;
+    padding: px;
+    text-transform: uppercase;
+    color: #01427A;
+    font-size: 40px;
+}
+
+.img h3 {
+    text-align: center;
+    padding: 15px;
+    color: #E14177;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.img p {
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 30px;
+    color: #6C6C6C;
+    margin: auto;
+    width: 50%;
+    line-height: 30px;
+}
+
+.img a {
+
+    text-align: center;
+    color: #01427A;
+    border: #01427A 2px solid;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img a:hover {
+    transition: 1s;
+    color: #ddd1d5;
+    background-color: #E14177;
+}
+
+.coures h3 {
+    font-size: 40px;
+    color: #01427A;
+    text-transform: uppercase;
+}
+
+.see-all li a {
+    color: #01427A;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.see-all li a:hover {
+    text-decoration: underline #E14177;
+}
+
+/* 3 sector box css */
+.manbox {
+    padding: 30px 0px;
+}
+
+.box1 {
+    overflow: hidden;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #F4EFEF;
+
+}
+
+.box1 img:hover {
+    transition: 1s;
+    transform: scale(1.15);
+
+}
+
+.box1 img {
+
+    border-radius: 10px;
+    width: 100%;
+}
+
+.databtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.databtn button {
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #01427A;
+}
+
+.databtn button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #E14177;
+
+}
+
+
+.ispn i {
+    padding: 5px;
+    font-size: 20px;
+    color: #01427A;
+}
+
+.ispn span {
+
+    font-weight: 600;
+    padding: 5px;
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
+
+.imgdown {
+    padding: 10px;
+    background-color: #F4EFEF;
+}
+
+.found p {
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.found a {
+    font-weight: 600;
+    padding: 10px 5px;
+    color: #01427A;
+    font-size: 24px;
+
+}
+
+.found span {
+    text-decoration: line-through;
+    color: #6C6C6C;
+    font-size: 20px;
+}
+
+.dp {
+    padding-right: 15px;
+    border-radius: 100%;
+    width: 15%;
+
+}
+
+.dp img {
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.star i {
+    color: #FF8D0B;
+    padding-right: 5px;
+}
+
+.star span {
+    font-weight: 600;
+    color: #6C6C6C;
+    padding: 2px;
+}
+
+/* populer subject slider css */
+
+
+.blue {
+    background-color: #01427A;
+
+}
+
+.blue h5 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.blue p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.disign {
+    padding: 20px 0px;
+    width: 25%;
+}
+
+.disign i {
+    font-size: 48px;
+    padding: 10px 12px;
+    border-radius: 100%;
+    color: #E14177;
+    background-color: #ddd1d5;
+}
+
+.disign:hover {
+    background-color: #ddd1d5;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+    i {
+        background-color: #E14177;
+        color: #01427A;
+    }
+
+    p {
+        color: #6C6C6C;
+    }
+}
+
+.disign p {
+    padding: 30px;
+    width: 50%;
+}
+
+.blue a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: #fff 2px solid;
+    color: white;
+    display: inline-block;
+
+}
+
+.blue a:hover {
+    transition: 1s;
+    background-color: #E14177;
+    color: #ddd1d5;
+}
+
+/* bloge and news slider css  */
+
+.blog h3 {
+
+    color: #01427A;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.blog p {
+    font-size: 18px;
+    color: #E14177;
+    padding: 10px;
+}
+
+.sidebox {
+    border: #ddd1d5 2px solid;
+    height: 600px;
+    width: 49%;
+    border-radius: 20px;
+    background-size: 100%;
+    position: relative;
+    background-image: url(../image/pak-3.jpg);
+}
+
+/* 
+.sidebox:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1s;
+} */
+
+.right {
+
+    width: 49%;
+}
+
+.rightup {
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 290px;
+    background-image: url(../image/girl-park.avif);
+}
+
+/* .rightup:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1s;
+} */
+
+.rightdoun {
+
+    position: relative;
+    border-radius: 20px;
+    height: 290px;
+    background-image: url(../image/girl-park.avif);
+}
+
+/* 
+.rightdoun:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1s; 
+}*/
+
+
+.machine {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.machine i {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.machine h6 {
+    font-size: 26px;
+    width: 70%;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+
+.machine a {
+    font-size: 16px;
+    color: #ddd1d5;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.testimo h3 {
+
+    color: #01427A;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.testimo p {
+    color: #E14177;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.rich {
+    width: 30%;
+}
+
+.gray {
+    position: relative;
+    margin-top: 70px;
+    background-color: rgb(216, 209, 209);
+
+}
+
+.rich i {
+    font-size: 70px;
+}
+
+.rich p {
+    line-height: 30px;
+    color: #6C6C6C;
+}
+
+.rich img {
+    width: 40%;
+    border-radius: 100%;
+}
+
+.rich span {
+    color: #01427A;
+}
+
+.simi {
+
+    position: absolute;
+    top: -50px;
+    right: 410px;
+}
+
+.simi .bg {
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #01427A;
+}
+
+.dot {
+    background-color: rgb(216, 209, 209);
+    color: #6C6C6C;
+    font-size: 70px;
+
+}
+
+.dot i {
+    width: 0%;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.dot i:hover {
+    cursor: pointer;
+    color: #E14177;
+    transform: scale(1.2);
+}
+
+.photobg {
+    margin: 80px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:
+        linear-gradient(rgba(19, 7, 90, 0.4)),
+        url('../image/bg-3girl.png');
+}
+
+.account {
+    padding: 60px 0px;
+    color: white;
+    width: 60%;
+}
+
+.account h4 {
+    padding: 20px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.account p {
+    width: 60%;
+    font-size: 18px;
+}
+
+.form {
+    position: relative;
+}
+
+.rigform {
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    border: #01427A 5px solid;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+}
+
+.rigform h3 {
+    color: #01427A;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.rigform input {
+    border: none;
+    background-color: #dfd6d6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+.rigform textarea {
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    background-color: #dfd6d6;
+}
+
+.rigform button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #01427A;
+    background-color: white;
+    color: #01427A;
+}
+
+.dsci {
+    cursor: pointer;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.gallery h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #01427A;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.gallery p {
+    text-align: center;
+    color: #E14177;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/* footer slider css */
+
+.footer {
+    color: white;
+    background-color: #01427A;
+}
+
+footer a {
+    text-transform: capitalize;
+    color: white;
+    padding: 25px 0px;
+    line-height: px;
+    font-size: 18px;
+}
+
+.logoblue img {
+    width: 40%;
+}
+
+.footer i {
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.footer h5 {
+    text-transform: uppercase;
+    padding: 0px 10px;
+    font-size: 24px;
+
+}
+
+.footer h6 {
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+.footer li {
+    line-height: 35px;
+}
+
+.footer h6 a {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.tuch {
+    width: 40%;
+}
+
+.tuch h6 {
+    text-transform: uppercase;
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.tuch p {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.tuch input {
+    width: 60%;
+    border: none;
+    font-size: 18px;
+    /* position: relative; */
+    padding: 10px 20px;
+}
+
+.input-group {
+    display: flex;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.tuch button {
+    /* position: absolute;bottom: 0px;right: 0px; */
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 12px 28px;
+    background-color: #01427A;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+
+/* owl crouser btn css */
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.owl-nav button span {
+    font-size: 60px;
+    color: rgb(198, 240, 12);
+}
+
+
+
+
+/*  about us page css */
+
+.about-us {
+    text-align: center;
+    height: 400px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../image/books-aboustus-bg.png);
+}
+
+.about-us h1 {
+    font-size: 40px;
+    color: #01427A;
+    text-transform: uppercase;
+    margin-top: 150px;
+    padding: 20px 0px;
+}
+
+.about-us a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.b {
+    color: #01427A;
+}
+
+.p {
+    color: #E14177;
+}
+
+/* who we are css */
+
+.img-us {
+    width: 100%;
+}
+
+.img-us img {
+    border: 3px solid #01427A;
+    width: 100%;
+}
+
+.we {
+    padding: 10px;
+}
+
+.we h2 {
+    font-size: 40px;
+    color: #01427A;
+    text-transform: uppercase;
+
+}
+
+.we p {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 0px;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+.we-left i {
+
+    font-size: 40px;
+    color: #E14177;
+
+}
+
+.we-left h5 {
+    font-weight: 100;
+    padding: 20px;
+    font-size: 18px;
+    width: 70%;
+
+}
+
+.we a {
+    font-weight: 600;
+    color: #01427A;
+    padding: 10px 20px;
+    border: #01427A 2px solid;
+
+
+}
+
+.g {
+    font-size: 14px;
+    color: #6C6C6C;
+}
+
+.we-left span {
+    color: #6C6C6C;
+}
+
+
+/* what we do slider css */
+
+.do {
+    background-color: #ddd1d5;
+    width: 30%;
+    padding: 20px 0px;
+
+}
+
+.do i {
+    color: #E14177;
+    font-size: 40px;
+
+}
+
+.do h6 {
+    padding: 15px;
+    font-size: 20px;
+    color: #01427A;
+}
+
+.do p {
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+/* blog page css */
+
+.blogs {
+    background-image: url(../image/blog-bg.png);
+}
+
+
+
+
+/* contect page css */
+.loction {
+    border: 3px solid #01427A;
+}
+
+.touchus {
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #01427A;
+}
+
+.touchus h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.touchus p {
+    font-size: 18px;
+    width: 70%;
+    line-height: 28px;
+    color: white;
+}
+
+.touchus a i {
+    background-color: white;
+    color: #E14177;
+    padding: 10px 13px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.touchus a {
+    padding: 10px;
+}
+
+.touchus a p {
+    padding: 10px;
+}
+
+/* courses page css */
+.courses {
+    background-image: url(../image/courses-bg.png);
+}
+
+.select {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ddd1d5;
+    color: #6C6C6C;
+}
+
+.boss {
+
+    width: 67%;
+}
+
+.box {
+    margin: 10px;
+    width:47%;
+}
+
+/* coures slider and search box opction css */
+.boss2 {
+    width: 30%;
+}
+
+.search {
+    margin: 20px 0px;
+    padding: 20px 10px;
+    border: 2px solid #6C6C6C;
+}
+
+.search h3 {
+    font-size: 24px;
+    color: #01427A;
+    padding: 10px 10px;
+    border-left: 5px solid #E14177;
+}
+
+.search input {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background-color: #ddd1d5;
+}
+
+.cou {
+    margin: 20px 0px;
+    padding: 20px;
+    border: 2px solid #6C6C6C;
+}
+
+.cou h3 {
+    font-size: 24px;
+    color: #01427A;
+    padding: 10px 10px;
+    border-left: 5px solid #E14177;
+}
+
+.cou li {
+    color: #6C6C6C;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+.cou a {
+    color: #6C6C6C;
+}
+
+.gold {
+    color: #FF8D0B;
+}
+
+.rating {
+    margin: 20px 0px;
+    padding: 20px;
+    border: #6C6C6C 2px solid;
+}
+
+.rating span {
+    font-size: 18px;
+    color: #6C6C6C;
+
+}
+
+.rating H3 {
+    font-size: 24px;
+    color: #01427A;
+    padding: 10px 10px;
+    border-left: 5px solid #E14177;
+}
+
+.rating li {
+
+    width: 100%;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.cou li a input {
+    margin-right: 15px;
+}
+
+/*FAQ page css */
+
+.patment-go h3 {
+    font-size: 20px;
+    color: #01427A;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+.lorem-p p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6C6C6C;
+    width: 86%;
+    padding: 10px 0px;
+    line-height: 28px;
+}
+
+.patment-go i {
+    color: #01427A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* blog deteils css */
+
+.marketing-content {
+    width: 60%;
+}
+
+.marketing-content h4 {
+    padding-top: 30px;
+    color: #01427A;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.marketing-content p {
+    font-size: 18px;
+    color: #6C6C6C;
+    line-height: 35px;
+    width: 83%;
+    padding-bottom: 20px;
+}
+
+.marketing-content img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*  round slider */
+
+.round-slider img {
+    border-radius: 100%;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.round-slider {
+    width: 33%;
+    text-align: center;
+    gap: 60px;
+}
+
+.round-slider h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #01427A;
+}
+
+.round-slider p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6C6C6C;
+}
+
+/*  slider-deteils */
+
+
+.slider-deteils {
+    width: 60%;
+}
+
+.courese-deteils {
+    border-left: solid 4px;
+    color: #E14177;
+}
+
+.courese-deteils h3 {
+    color: #01427A;
+    padding-left: 10px;
+}
+
+.deteils-box {
+    background: #F4EFEF;
+    padding: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.deteils-box p {
+    padding: 16px 0px;
+    font-size: 18px;
+}
+
+.instructor-z {
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.list{
+    display: none;
+}
+.ipsum {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table tr th i {
+    padding-right: 5px;
+    color: #01427A;
+}
+
+.experience-z h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #01427A;
+    padding-top: 10px;
+}
+
+.experience-z p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #6C6C6C;
+    line-height: 40px;
+}
+
+.table th {
+    padding: 10px;
+}
+
+.checkbox-x input {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.checkbox-x p {
+    padding: 10px 10px;
+}
+
+.experience-z {
+    padding: 15px 0px;
+}
+
+.round-slider{
+    width: 30%;
+}
+
+.loction{
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .contanier {
+        width: 90%;
+    }
+
+    .img p {
+        font-size: 16px;
+        width: 55%;
+    }
+
+    .img {
+        padding: 70px;
+    }
+
+    .learn {
+        width: 70%;
+        padding: 100px 50px;
+    }
+
+    .learn p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .learn-img {
+        width: 35%;
+    }
+
+    .img a {
+        margin-bottom: 30px;
+    }
+
+    .see-all li a {
+        font-weight: 600;
+        padding: 0px 5px;
+        font-size: 16px;
+    }
+
+    .rich {
+        width: 33%;
+    }
+
+    .simi {
+        right: 290px;
+    }
+
+    .account h4 {
+        font-size: 35px;
+    }
+
+    .account p {
+        font-size: 17px;
+    }
+
+    .rigform h3 {
+        padding: 10px 0px;
+        font-size: 24px;
+    }
+
+    .tuch button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+}
+
+@media (max-width:960px) {
+    .contanier {
+        padding: 10px;
+    }
+
+    .menu {
+        display: inline-block;
+    }
+
+    .img p {
+        width: 70%;
+    }
+
+    .nav ul li a {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+    .learn {
+        width: 55%;
+        padding: 45px 20px;
+        margin: 0px 0px 0px -30px;
+    }
+
+    .learn p {
+        line-height: 25px;
+    }
+
+    .about-us h1 {
+        margin-top: 70px;
+    }
+
+    .we h2 {
+        font-size: 30px;
+
+    }
+
+    .we-left h5 {
+        padding: 5px
+    }
+
+    .we p {
+        line-height: 22px;
+        padding-bottom: 0px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .g {
+        padding-bottom: 20px;
+    }
+
+    .img-us img {
+        width: 300px;
+    }
+
+    .we-left i {
+        font-size: 30px;
+    }
+
+    .simi {
+        right: 230px;
+    }
+
+    .input-group {
+        padding: 5px;
+    }
+}
+
+@media (max-width:768px) {
+    .contanier {
+        width: 100%;
+
+    }
+    .touchus{
+        width: 100%;
+    }
+    .round-slider{
+        width: 48%;
+    }
+    .see-all{
+        display: none;
+    }
+.list{
+    font-size: 24px;
+    color: #01427A;
+    display: block;
+}
+    .learn {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .warp {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .learn-img {
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+        height: 450px;
+    }
+
+    .pos {
+        height: 450px;
+        width: 100%;
+    }
+
+    .pos img {
+
+        height: 100%;
+    }
+
+    @media (max-width:580px) {
+        .learn-img {
+            margin: auto;
+            margin-top: 30px;
+            width: 70%;
+            height: 350px;
+        }
+        
+    .touchus{
+        width: 100%;}
+.do{
+    margin: 10px;
+    width: 100%;
+}
+        .pos {
+            height: 350px;
+            width: 100%;
+        }
+    }
+
+    .img {
+        height: px;
+        padding: 25px;
+    }
+
+    .img p {
+        line-height: 21px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .img h2 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+
+    .img h3 {
+        padding: 0px;
+        font-size: 18px;
+    }
+
+    .coures h3 {
+
+        font-size: 30px;
+    }
+
+    .sidebox {
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .rightdoun {
+        width: 100%;
+        height: 400px;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .rich {
+        width: 100%;
+    }
+
+    .simi {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+    }
+.gallery h3{
+    padding: 10px;
+    font-size: 30px;
+}
+.gallery p{
+
+    font-size: 18px;
+}
+    .account {
+        padding: 100px 0px;
+        width: 100%;
+    }
+
+    .account h4 {
+        font-size: 28px;
+    }
+
+    .account p {
+        width: 100%;
+    }
+
+    .rigform {
+        position: relative;
+        width: 75%;
+        bottom: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+    .logoblue h5 {
+        font-size: 16px;
+        width: 100%;
+    }
+    .p25{
+        padding: 0px 25px;
+    }
+    .nav{
+        font-size: 18px;
+        display: none;
+        
+    }
+    .nav ul a{
+    display: inline-block;}
+
+.marketing-content{
+    width: 100%;
+}
+.tuch{width: 100%;}
+.about-us{
+    height: auto;
+}
+.about-us h1{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.about-us a{
+    font-size: 16px;
+}
+.we p{
+    padding-bottom: 30px;
+}
+
+.rich{
+    width: 100%;
+}
+.img-us{
+    
+    margin: auto;
+}
+.box1{
+    width: 100%;
+}
+.boss{
+    width: 100%;
+}
+.boss2{
+    width: 100%;
+}
+}
+
+    
+
+
+@media (max-width:0) {}
